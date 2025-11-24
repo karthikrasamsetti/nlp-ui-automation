@@ -1,0 +1,21 @@
+{
+  "name": "automation-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+  "test": "npx playwright test",
+  "test:manual": "npx playwright test tests/manual --reporter=list",
+  "test:ai": "npx playwright test tests/ai-generated --reporter=list"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
